@@ -1,0 +1,152 @@
+.title{
+  position:absolute;
+  top:40%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  font-size:27px;
+  letter-spacing:8px;
+ text-shadow: 1px 1px 4px black;
+ text-transform: uppercase;
+ font-size: 40px;
+}
+.titletext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  font-size:27px;
+  letter-spacing:8px;
+ text-shadow: 1px 1px 4px black;
+}
+
+.gympic{
+  background-image: url('./Images/gravitygymfloor.jpg');
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.treadpic, .ellipticalpic, .bicyclepic, .dumbbells, .bench, .dip, .tread{
+  width: 31vw;
+  height: 300px;
+  border: none;
+  padding: none;
+  opacity: .5;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .6s;
+}
+
+.treadpic:hover, .ellipticalpic:hover, .bicyclepic:hover, .dumbbells:hover, .bench:hover, .dip:hover, .tread:hover{
+  width: 31vw;
+  height: 300px;
+  border: none;
+  padding: none;
+  opacity: 1;
+  transition: .3s;
+  border-radius: 5%;
+}
+body {
+  color: #333;
+  background-color: white;
+}
+body h3{
+  color: black;
+}
+.featuredTech {
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+.item {
+  padding-left: 20px;
+  width: 31vw;
+  float: left;
+  text-align: center;
+
+}
+
+.userinfo{
+  background-color:#282e34;
+  color:#ddd;
+}
+.userinfo button{
+  width:50vw;
+  margin-left:25vw;
+  height: 100px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.userinfo h3{
+  color:#ddd;
+}
+.webcam{
+  padding-left: 43vw;
+  padding-right: 50vw;
+}
+.username {
+  text-align: center;
+}
+.statitem {
+  float: left;
+  width: 32vw;
+
+  text-align: center;
+}
+
+.OpenMachines{
+  text-align: center;
+}
+.machines{
+  width: 32vw;
+  float: left;
+  text-align: center;
+}
+.machines img, .red{
+  position: absolute;
+  margin-left: 3px;
+  margin-top: -5px;
+  width: 30px;
+  height: 30px;
+}
+.green{
+  position: absolute;
+  margin-left: 14px;
+  margin-top: -5px;
+  width: 30px;
+  height: 30px;
+}
+.treadmillavail{
+  width: 32vw;
+  float: left;
+  text-align: center;
+}
+.footer {
+  height: 150px;
+    background-color: #282e34;
+    color: #ddd;
+}
+.perkins{
+  position: absolute;
+  padding: 20px;
+  width: 400px;
+  height: 120px;
+}
+.useless{
+  float: right;
+  margin-right: 55px;
+  margin-top: 70px;
+
+}
+.copyright{
+  position: static;
+  float: right;
+}
+
+.clear {
+clear: both;
+}
